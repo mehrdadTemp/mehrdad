@@ -40,7 +40,7 @@ const generator = async () => {
 					  default: '<span style="width:100%;color: #444;text-align:center;">{{page}}</span>/<span>{{pages}}</span>', 
 					}
 				},
-				timeout: 100000000,
+				timeout: 800000,
 				phantomPath: require('phantomjs-prebuilt').path,
 				phantomArgs: ["--ignore-ssl-errors=yes", "--load-images=true"]
 			}
