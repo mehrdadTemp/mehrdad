@@ -65,3 +65,7 @@ const generator = async () => {
 	}
 }
 generator();
+
+const test = () => {
+    console.log("test");   
+}
